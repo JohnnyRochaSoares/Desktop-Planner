@@ -170,8 +170,8 @@ while not osq:
 os = []
 
 for i in range(1, os_quantity + 1):
-    drive = input(f"What is your OS number {i}? ")
-    os.append(drive)
+    system = input(f"What is your OS number {i}? ")
+    os.append(system)
 
 # ---- Text List ----
 
@@ -219,7 +219,9 @@ print(f"Speaker: {speaker}")
 print(f"EarphonesHeadphones {phones}")
 print(f"Webcam {webcam}")
 print(f"Thermal Compound {thermal_compound}")
-print(f"Operating System {os}\n")
+
+for i in range(os_quantity):
+    print(f"OS {i+1}: {os[i]}")
 
 
 # ---- Final Text List ----
@@ -242,7 +244,7 @@ print(
     f"a {speaker} speaker, {phones} headphones, "
     f"a {webcam} webcam, "
     f"{thermal_compound} thermal compound "
-    f"and {os} operating system."
+    f"and {text(os, 'operating system')}. " 
 )
 
 exit = input("Press Enter to Exit....")
