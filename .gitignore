@@ -1,0 +1,14 @@
+# ==== Compiled Binaries ==== #
+dist/
+build/
+*.spec
+release/
+
+# ==== Python ==== #
+__pycache__/
+*.pyc
+*.pyo
+
+# ==== Text Editor Temporary Files ==== #
+*.un~
+*~
