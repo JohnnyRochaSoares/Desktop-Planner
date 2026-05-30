@@ -219,7 +219,7 @@ print(f"Speaker: {speaker}")
 print(f"EarphonesHeadphones {phones}")
 print(f"Webcam {webcam}")
 print(f"Thermal Compound {thermal_compound}")
-print(f"Operating System {os}"\n)
+print(f"Operating System {os}\n")
 
 
 # ---- Final Text List ----
